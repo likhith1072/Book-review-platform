@@ -106,6 +106,7 @@ npm run dev
 cd client
 npm install
 npm run dev
+
 ![Screenshot (393)](https://github.com/user-attachments/assets/f3060f88-6d90-4e18-bd29-d6084e7d0480)
 ![Screenshot (394)](https://github.com/user-attachments/assets/772a6b38-18b6-46ae-ac55-bf2a1de5c791)
 ![Screenshot (395)](https://github.com/user-attachments/assets/3b02548a-f7cb-4ec9-81e7-e75f779072fc)
