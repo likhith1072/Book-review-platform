@@ -82,3 +82,31 @@ GET /api/rating/getBookRatings/:bookId
 POST /api/review/create
 
 GET /api/review/getReviews/:bookId
+
+1.⚙️ How to Run Locally
+Clone the Repository
+
+git clone https://github.com/likhith1072/Book-review-platform.git
+cd Book-Review-Platform
+
+2.Setup Backend
+
+npm install
+Create a .env file and add:
+
+Create a .env file and add:
+MONGO=<your-mongodb-connection-uri>
+JWT_SECRET=<your-secret>
+
+in terminal:(in directory Book-Review-Repository)
+npm run dev
+
+3.Setup Frontend
+
+cd client
+npm install
+npm run dev
+![Screenshot (393)](https://github.com/user-attachments/assets/f3060f88-6d90-4e18-bd29-d6084e7d0480)
+![Screenshot (394)](https://github.com/user-attachments/assets/772a6b38-18b6-46ae-ac55-bf2a1de5c791)
+![Screenshot (395)](https://github.com/user-attachments/assets/3b02548a-f7cb-4ec9-81e7-e75f779072fc)
+![Screenshot (396)](https://github.com/user-attachments/assets/c8bfe339-828c-43a3-bd27-8d86deeec43d)
