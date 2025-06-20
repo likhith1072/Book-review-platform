@@ -40,7 +40,7 @@ export default function App() {
         <Route path="/signin" element={<SignIn />} />
         <Route path="/signup" element={<SignUp />} /> 
         <Route path="/reset-password" element={<ResetPassword />} /> 
-        <Route path="/Book/:bookSlug" element={<BookPage />} />
+        <Route path="/book/:bookSlug" element={<BookPage />} />
       </Routes>
       <Footer/>
     </BrowserRouter>

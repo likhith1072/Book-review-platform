@@ -11,6 +11,6 @@ const router =express.Router();
 router.post('/uploadbook',verifyToken,uploadbook);
 router.get('/getbooks',getbooks);
 router.delete('/deletebook/:bookId/:userId',verifyToken,deletebook)
-router.put('/updatebook/:bookId/:userId',verifyToken,updatebook)
+// router.put('/updatebook/:bookId/:userId',verifyToken,updatebook)
 
 export default router;

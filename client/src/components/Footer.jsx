@@ -16,8 +16,7 @@ export default function Footer() {
             <div className='grid grid-cols-2 gap-6 sm:grid-cols-3 sm:gap-8 mt-4 text-gray-600 text-md'>
               <div className='flex flex-col gap-4'>
                 <h2 className='text-gray-600 font-semibold '>ABOUT</h2>
-                 <Link to="https://www.100jsprojects.com" target="_blank" rel="noopener no referrer" className='hover:underline'>100 JS Projects</Link>
-                 <Link to="/about" target="_blank" rel="noopener no referrer" className='hover:underline'>Fusion Blog</Link>
+                 <Link to="/about" target="_blank" rel="noopener no referrer" className='hover:underline'>Book Review</Link>
               </div>
               <div className='flex flex-col gap-4 '>
                 <h2 className='text-gray-600 font-semibold '>FOLLOW US</h2>

@@ -23,8 +23,7 @@ export default function Header() {
 
     const links = [
         { name: "Home", to: "/" },
-        { name: "About", to: "/about" },
-        { name: "Projects", to: "/projects" }
+        { name: "About", to: "/about" }
     ];
   
     useEffect(()=>{
@@ -47,6 +46,7 @@ export default function Header() {
        }
        else{
          dispatch(signoutSuccess());
+         navigate('/signin');
        }
      } catch (error) {
        console.log(error.message);
@@ -66,8 +66,8 @@ export default function Header() {
             <div className='sm:px-1 py-2 border-1 border-gray-500 flex justify-between items-center'>
                 <div>
                     <Link to="/" className='self-center whitespace-nowrap text-md sm:text-xl font-semibold '>
-                        <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full text-white'>Fusion </span>
-                        Blog
+                        <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-full text-white'>Book </span>
+                        Review
                     </Link>
                 </div>
 
