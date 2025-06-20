@@ -107,7 +107,15 @@ cd client
 npm install
 npm run dev
 
+The ScreenShots that i have attached can be seen using there links provided below 
 ![Screenshot (393)](https://github.com/user-attachments/assets/f3060f88-6d90-4e18-bd29-d6084e7d0480)
 ![Screenshot (394)](https://github.com/user-attachments/assets/772a6b38-18b6-46ae-ac55-bf2a1de5c791)
 ![Screenshot (395)](https://github.com/user-attachments/assets/3b02548a-f7cb-4ec9-81e7-e75f779072fc)
 ![Screenshot (396)](https://github.com/user-attachments/assets/c8bfe339-828c-43a3-bd27-8d86deeec43d)
+![Screenshot (397)](https://github.com/user-attachments/assets/493f7e5c-cb7b-4a2d-b0ae-480056e9d21e)
+![Screenshot (398)](https://github.com/user-attachments/assets/2722451e-fd2a-4e17-a037-a3f169147fe0)
+![Screenshot (405)](https://github.com/user-attachments/assets/10c5854c-6f05-4db5-b325-30cd3b5cb40c)
+![Screenshot (406)](https://github.com/user-attachments/assets/6ca3807d-1feb-415b-a4b9-1f172c3dc1fa)
+![Screenshot (407)](https://github.com/user-attachments/assets/de11d98c-6720-474f-9545-d3ae045a492f)
+
+
