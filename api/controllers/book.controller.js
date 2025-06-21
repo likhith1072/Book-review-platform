@@ -92,26 +92,26 @@ export const deletebook = async(req,res,next) => {
 }
 
 
-export const updatebook = async(req,res,next) => {
-   if(!req.user.isAdmin || req.user.id !== req.params.userId){
-     return next(errorHandler(403,'You are not allowed to update this book'))}
-    try{
-        console.log(req.body.description);
-        const updatedBook=await Book.findByIdAndUpdate(
-            req.params.bookId,
-            {
-                $set:{
-                    title:req.body.title,
-                    description:req.body.description,
-                    category:req.body.category,
-                    image:req.body.image,
-                    slug:req.body.title.split(' ').join('_').toLowerCase().replace(/[^a-zA-Z0-9_-]/g,''),
+// export const updatebook = async(req,res,next) => {
+//    if(!req.user.isAdmin || req.user.id !== req.params.userId){
+//      return next(errorHandler(403,'You are not allowed to update this book'))}
+//     try{
+//         console.log(req.body.description);
+//         const updatedBook=await Book.findByIdAndUpdate(
+//             req.params.bookId,
+//             {
+//                 $set:{
+//                     title:req.body.title,
+//                     description:req.body.description,
+//                     category:req.body.category,
+//                     image:req.body.image,
+//                     slug:req.body.title.split(' ').join('_').toLowerCase().replace(/[^a-zA-Z0-9_-]/g,''),
 
-                }
-            },{new:true}  
-        )
-       res.status(200).json(updatedBook);
-    } catch(error){
-        next(error);
-    }
-};
+//                 }
+//             },{new:true}  
+//         )
+//        res.status(200).json(updatedBook);
+//     } catch(error){
+//         next(error);
+//     }
+// };
