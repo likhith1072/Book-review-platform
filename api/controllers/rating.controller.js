@@ -6,7 +6,7 @@ export const createRating = async (req, res, next) => {
         const { bookId, userId, rating } = req.body;
 
         if (userId !== req.user.id) {
-            return next(errorHandler(403, "You are not allowed to rate this book"));
+            return next(errorHandler(403, "You are not allowed to rate this Book"));
         }
 
         // Check if rating already exists
