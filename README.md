@@ -36,7 +36,7 @@ A full-stack MERN application that allows users to browse books, view detailed i
 
 ## 📂 Folder Structure
 
-```bash
+
 📦 Book-Review-Platform/
 ├── client/               # React frontend
 │   ├── components/       # Reusable UI components
